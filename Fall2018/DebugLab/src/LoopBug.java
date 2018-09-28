@@ -10,9 +10,7 @@ public class LoopBug
     // Declare the variable.
     int Count;
     // Create the loop.
-    for (Count=1; Count<10; Count++) ;
-    {
-      // Output the result.
+    for (Count = 1; Count < 10; Count++ ) {
       System.out.println("Count is " + Count);
     }
   }
