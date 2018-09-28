@@ -27,10 +27,9 @@ public class StepIntoStepOver
 
   public static int countdown2(int number)
   {
-    for(int i = number; i <= number; i--)
+    for(int i = number; i > 0; i--)
     {
-      System.out.println(number);
-      number--;
+      System.out.println(i);
     }
     return 0;
   }
